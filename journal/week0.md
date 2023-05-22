@@ -14,7 +14,8 @@ Below is proof that the AWS CLI works and is connected to my AWS account.
 *-Add screenshot of billing alarm*
 
 ### 3. Create a Budget
-*-add screenshot of budget*
+Below is a screenshot of two budgets I've made in the AWS Management Console.
+![Budget screenshot](assets/Budgets%20screenshot.PNG)
 
 ### 4. Logical Architectural Design of Cruddur
 ![Logical Diagram of Cruddur](assets/Homework%20Diagram.png)
