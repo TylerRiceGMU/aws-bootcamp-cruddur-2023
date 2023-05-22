@@ -6,6 +6,10 @@
 Below is the code used to install AWS CLI in Gitpod.
 ![Code used to install aws cli in gitpod](assets/aws%20cli%20install%20code.PNG)
 
+Below is proof that the AWS CLI works and is connected to my AWS account.
+![Get Caller Screenshot](assets/aws%20cli%20get%20caller%20identity.jpg)
+
+
 ### Create a Billing Alarm
 *-Add screenshot of billing alarm*
 
