@@ -11,7 +11,9 @@ Below is proof that the AWS CLI works and is connected to my AWS account.
 
 
 ### 2. Create a Billing Alarm
-*-Add screenshot of billing alarm*
+Below is a screenshot of the billing alarm I made in the AWS Management Console.
+![Billing alarm screenshot](assets/billing%20alarm%20screenshot.PNG)
+This alarm will trigger if the daily charges exceed $1.
 
 ### 3. Create a Budget
 Below is a screenshot of two budgets I've made in the AWS Management Console.
