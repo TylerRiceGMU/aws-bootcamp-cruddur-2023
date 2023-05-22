@@ -3,7 +3,8 @@
 ## Required Homework/Tasks
 
 ### Install and Verify AWS CLI
-*-Add screenshots of proof*
+Below is the code used to install AWS CLI in Gitpod.
+![Code used to install aws cli in gitpod](assets/aws%20cli%20install%20code.PNG)
 
 ### Create a Billing Alarm
 *-Add screenshot of billing alarm*
