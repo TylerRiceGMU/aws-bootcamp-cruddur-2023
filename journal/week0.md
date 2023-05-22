@@ -25,7 +25,22 @@ Below is a screenshot of two budgets I've made in the AWS Management Console.
 [Lucid Charts Share Link](https://lucid.app/lucidchart/a56b97e7-6b7f-43e6-b496-01e90f1e70dc/edit?viewport_loc=-530%2C-356%2C3328%2C1598%2C0_0&invitationId=inv_1a750180-4e62-40b5-bcd1-ee41af686a7b)
 ## Homework Challenges
 *-Markdown syntax: create a table, list, etc.*\
-*-code example:*
+Code used in the AWS CLI to create a billing alarm once I've exceeded 80% of my budget.
 ```
-insert code
+[
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 80,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "tylerrice9@gmail.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    }
+  ]
 ```
