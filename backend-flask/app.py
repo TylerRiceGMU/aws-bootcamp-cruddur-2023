@@ -3,6 +3,7 @@ from flask import request
 from flask_cors import CORS, cross_origin
 import os
 import sys
+import NotificationsActivities
 
 from services.home_activities import *
 from services.notifications_activities import *
@@ -69,9 +70,7 @@ def data_home():
 
 @app.route("/api/activities/notifications", methods=['GET'])
 def data_notifications():
-  printf("1: debug cors")
   data = NotificationsActivities.run()
-  printf("4: DEBUG CORS")
   return data, 200
 
 @app.route("/api/activities/@<string:handle>", methods=['GET'])
