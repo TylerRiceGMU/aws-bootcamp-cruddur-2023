@@ -2,11 +2,7 @@
 
 ## Lecture Procedures
 
-### 1. Containerize Backend
-```
-
-```
-### 2. Add Dockerfile
+### 1. Add Dockerfile
 ```
 FROM python:3.10-slim-buster
 
@@ -40,12 +36,12 @@ EXPOSE ${PORT}
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 ```
 
-### 3. Build Container
+### 2. Build Container
 ```
 
 ```
 
-### 4. Run Container
+### 3. Run Container
 ```
 
 ```
