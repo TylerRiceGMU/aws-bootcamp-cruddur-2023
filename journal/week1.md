@@ -24,8 +24,8 @@ RUN pip3 install -r requirements.txt
 
 # Outside Container -> Inside Container
 # The . means everything in the current directory
-# first period means everything in /backend-flask outside container
-# second periond means everyhting in /backend-flask inside container
+# first period means everything in /backend-flask (outside container)
+# second periond means everyhting in /backend-flask (inside container)
 COPY . .
 
 # Set Environment Variables (Env Vars for short)
