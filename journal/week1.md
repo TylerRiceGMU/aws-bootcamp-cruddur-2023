@@ -35,7 +35,7 @@ EXPOSE ${PORT}
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 ```
 
-### 2. Build Container
+### 2. Build Backend Container
 ```
 docker build -t  backend-flask ./backend-flask
 ```
@@ -63,3 +63,13 @@ npm i
 ```
 #### Create Dockerfile
 ![Frontend Dockerfile](assets/frontend%20docker%20file.PNG)
+
+### 5. Build Frontend Container
+```
+docker build -t frontend-react-js ./frontend-react-js
+```
+
+### 6. Run Frontend Container
+```
+docker run -p 3000:3000 -d frontend-react-js
+```
