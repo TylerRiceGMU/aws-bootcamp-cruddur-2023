@@ -73,3 +73,5 @@ docker build -t frontend-react-js ./frontend-react-js
 ```
 docker run -p 3000:3000 -d frontend-react-js
 ```
+
+### 7. Create Docker-compose.yaml File
