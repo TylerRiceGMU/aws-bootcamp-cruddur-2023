@@ -30,9 +30,8 @@ ENV FLASK_ENV=development
 
 EXPOSE ${PORT}
 
-# CMD = Command
+# This will run the backend-flask module in python.
 # python3 -m flask run --host=0.0.0.0 --port=4567
-# -m flask is using the flask module
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 ```
 
