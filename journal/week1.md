@@ -55,5 +55,11 @@ unset BACKEND_URL="*"
 ```
 
 ### 4. Containerize Frontend
+#### Run NPM Install
+We need to do this before building the container because it needs to copy the contents of node_modules.
+```
+cd frontend-react-js
+npm i
+```
 #### Create Dockerfile
 ![Frontend Dockerfile](assets/frontend%20docker%20file.PNG)
