@@ -109,5 +109,6 @@ Below is a screenshot of my Gitpod of proof I have it.
 ![Docker-Compose File](assets/docker-compose%20file.PNG)
 
 ### 8. Run the Docker-compose.yaml File
-Ports 3000 and 4567 will appear in the Ports tab.
+Ports 3000 and 4567 will appear in the Ports tab.\
+The link for port 3000 will take you to Cruddur's frontend interface.
 ![Frontend and Backend Ports](assets/ports%20for%20docker%20compose%20file.PNG)
