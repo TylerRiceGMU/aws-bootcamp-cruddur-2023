@@ -40,6 +40,7 @@ CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 ```
 docker build -t  backend-flask ./backend-flask
 ```
+Below is a screenshot of my Gitpod showing the backend-flask image.
 ![Backend Image](assets/build%20backend%20container%20code%20result.PNG)
 
 ### 3. Run Container
