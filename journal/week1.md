@@ -110,3 +110,4 @@ Below is a screenshot of my Gitpod of proof I have it.
 
 ### 8. Run the Docker-compose.yaml File
 Ports 3000 and 4567 will appear in the Ports tab.
+![Frontend and Backend Ports](assets/ports%20for%20docker%20compose%20file.PNG)
