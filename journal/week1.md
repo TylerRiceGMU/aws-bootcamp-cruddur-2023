@@ -104,3 +104,6 @@ networks:
     driver: bridge
     name: cruddur
 ```
+
+Below is a screenshot of my Gitpod of proof I have it.
+![Docker-Compose File](assets/docker-compose%20file.PNG)
