@@ -56,6 +56,4 @@ unset BACKEND_URL="*"
 
 ### 4. Containerize Frontend
 #### Create Dockerfile
-```
-
-```
+![Frontend Dockerfile](assets/frontend%20docker%20file.PNG)
