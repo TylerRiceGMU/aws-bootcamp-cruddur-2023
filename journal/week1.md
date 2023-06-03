@@ -75,3 +75,4 @@ docker run -p 3000:3000 -d frontend-react-js
 ```
 
 ### 7. Create Docker-compose.yaml File
+The purpose of Docker-compose file is to allow us to run multiple containers at the same time.
